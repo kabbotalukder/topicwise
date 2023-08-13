@@ -1,0 +1,1383 @@
+{
+    "course": {
+      "courseCode": "CSE-1121",
+      "courseName": "Computer Programming I"
+    },
+    "topics": [
+      {
+        "topicName": "Basic organization of computer",
+        "concepts": [
+          {
+            "description": "A computer has parts like a brain (CPU), memory, input/output devices, and storage. They work together to process information."
+          },
+          {
+            "title": "Software - What and How",
+            "description": "Software are programs that tell a computer what to do. There are two types: system software (manages computer) and application software (specific tasks like word processing)."
+          },
+          {
+            "title": "Problem Solving Steps",
+            "description": "1. Understand the Problem: Know what the problem is asking.\n2. Plan: Think about how to solve it.\n3. Do: Write code based on the plan.\n4. Check: Test if the code works.\n5. Document: Explain how the code works."
+          },
+          {
+            "title": "Flow Charts",
+            "description": "Pictures that show steps in a process or program. Use shapes and arrows to connect the steps."
+          },
+          {
+            "title": "Introduction to C",
+            "description": "C is a simple and powerful programming language made in the 1970s. It's good for making programs and works closely with a computer's hardware."
+          },
+          {
+            "title": "Keywords, Data Types, Variables",
+            "description": "Keywords are special words in C. Variables hold data (numbers, text) and have types (like 'int' for numbers)."
+          },
+          {
+            "title": "Constants and Statements",
+            "description": "Constants are fixed values (like 5 or 'A'). Statements are instructions in programs (like telling the computer what to do)."
+          },
+          {
+            "title": "Symbolic Constant",
+            "description": "A name given to a constant value in the program. Helps read and change values easily."
+          }
+        ], 
+        "quizzes": {
+          "quizTitle": "Basic organization of computer Quiz",
+          "questions": [
+            {
+              "question": "What does CPU stand for?",
+              "options": ["Central Processing Unit", "Central Processor Unit", "Computer Personal Unit", "Computer Processing Unit"],
+              "correctIndex": 0
+            },
+            {
+              "question": "Which type of software manages computer hardware?",
+              "options": ["System Software", "Application Software", "Operating Software", "Hardware Software"],
+              "correctIndex": 0
+            },
+            {
+              "question": "What is the first step in problem solving?",
+              "options": ["Plan", "Understand the Problem", "Check", "Document"],
+              "correctIndex": 1
+            },
+            {
+              "question": "What is a flowchart used for?",
+              "options": ["Drawing Pictures", "Writing Poetry", "Representing Program Logic", "Creating Graphs"],
+              "correctIndex": 2
+            },
+            {
+              "question": "C is a programming language known for:",
+              "options": ["Its Complicated Syntax", "Being Developed in the 1990s", "Simplicity and Power", "Web Design"],
+              "correctIndex": 2
+            },
+            {
+              "question": "What do you call named values that don't change during program execution?",
+              "options": ["Variables", "Constants", "Symbols", "Identifiers"],
+              "correctIndex": 1
+            },
+            {
+              "question": "Which keyword is used to declare an integer variable in C?",
+              "options": ["int", "integer", "var", "num"],
+              "correctIndex": 0
+            },
+            {
+              "question": "What is the purpose of the 'if' statement in programming?",
+              "options": ["Looping", "Input/Output", "Making Decisions", "Creating Arrays"],
+              "correctIndex": 2
+            },
+            {
+              "question": "What does RAM stand for in a computer?",
+              "options": ["Random Access Memory", "Read-Only Memory", "Running Application Memory", "Remote Access Memory"],
+              "correctIndex": 0
+            },
+            {
+              "question": "Which statement best defines a symbolic constant in programming?",
+              "options": ["A variable that can change its value", "A constant used in mathematics", "A named value representing a constant", "A value that is not allowed in programming"],
+              "correctIndex": 2
+            }
+          ]
+        }        
+      },
+      {
+        "topicName": "Operators",
+        "concepts": [
+          {
+            "description": "Operators are special symbols in C that perform actions on variables and values. They help in calculations, comparisons, and more."
+          },
+          {
+            "title": "Arithmetic Operators",
+            "description": "Arithmetic operators (+, -, *, /, %) allow you to perform basic math operations like addition, subtraction, multiplication, division, and finding the remainder."
+          },
+          {
+            "title": "Unary Operators",
+            "description": "Unary operators (+, -) work on a single value, like making a number positive or negative."
+          },
+          {
+            "title": "Relational Operators",
+            "description": "Relational operators (==, !=, >, <, >=, <=) compare values to determine relationships, such as equality or order."
+          },
+          {
+            "title": "Logical Operators",
+            "description": "Logical operators (&&, ||, !) help combine conditions to make more complex decisions."
+          },
+          {
+            "title": "Assignment Operators",
+            "description": "Assignment operators (=, +=, -=, *=, /=) assign values to variables and perform operations at the same time."
+          },
+          {
+            "title": "Conditional Operator",
+            "description": "Conditional operator (?:) is a shortcut for if-else statements, allowing you to make decisions in a compact way."
+          }
+        ],
+        "quizzes":{
+          "quizTitle": "Operators in C Programming Quiz",
+          "questions": [
+            {
+              "question": "What are operators in C programming?",
+              "options": [
+                "Special characters for making code look fancy",
+                "Symbols used for performing tasks on values",
+                "Decorative elements for user interfaces",
+                "Reserved words in C for defining variables"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "Which type of operators allow us to perform basic math operations?",
+              "options": ["Unary Operators", "Logical Operators", "Relational Operators", "Arithmetic Operators"],
+              "correctIndex": 3
+            },
+            {
+              "question": "What do Unary Operators work on?",
+              "options": ["A single value", "Two values", "Arrays", "Characters"],
+              "correctIndex": 0
+            },
+            {
+              "question": "Which operator is used to compare values for equality?",
+              "options": ["==", "=>", "<>", "!="],
+              "correctIndex": 0
+            },
+            {
+              "question": "What is the purpose of Logical Operators?",
+              "options": [
+                "To perform arithmetic calculations",
+                "To combine conditions and make decisions",
+                "To assign values to variables",
+                "To convert data types"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "What does an Assignment Operator do?",
+              "options": [
+                "Performs division operations",
+                "Compares two values",
+                "Assigns values to variables",
+                "Checks for equality"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "What is the Conditional Operator also known as?",
+              "options": [
+                "Decision Operator",
+                "Equality Operator",
+                "Ternary Operator",
+                "Logical Operator"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "What does 'Precedence of Operators' refer to?",
+              "options": [
+                "The order in which operators are written",
+                "The order in which operators are evaluated",
+                "The size of operators in memory",
+                "The type of operators used in a program"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "What is an Expression in programming?",
+              "options": [
+                "A statement that prints something to the screen",
+                "A mathematical formula used in calculations",
+                "A mix of values, variables, and operators that gives a result",
+                "A conditional statement used for decision-making"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "Why do we need Type Conversions?",
+              "options": [
+                "To confuse programmers",
+                "To create complex mathematical formulas",
+                "To change the programming language",
+                "To change the type of a value for specific operations"
+              ],
+              "correctIndex": 3
+            }
+          ]
+        }             
+      },      
+      {
+        "topicName": "Input & Output",
+        "concepts": [
+          {
+            "description": "Input and Output (I/O) are essential for a program to interact with users and the environment."
+          },
+          {
+            "title": "Data Input",
+            "description": "Managing data input using functions like 'scanf' to read data from the user into variables, 'getchar' to read a single character, and 'gets' to read a line of text."
+          },
+          {
+            "title": "Data Output",
+            "description": "Managing data output using functions like 'printf' to display formatted output on the screen, 'putchar' to display a single character, and 'puts' to display a string followed by a newline."
+          },
+          {
+            "title": "Formatted Input and Output",
+            "description": "Formatted I/O allows controlling how data is presented and read. For example, using placeholders like '%d' in 'printf' to display integers or '%f' for floating-point numbers."
+          }
+        ],
+        "quizzes":{
+          "quizTitle": "Input and Output Quiz",
+          "questions": [
+            {
+              "question": "What is the purpose of Input and Output (I/O) in programming?",
+              "options": [
+                "To perform complex calculations",
+                "To interact with users and the environment",
+                "To store variables in memory",
+                "To define data types"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "Which function is used to read data from the user and store it in variables?",
+              "options": [
+                "scanf",
+                "printf",
+                "getchar",
+                "puts"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "What does the 'getchar' function do?",
+              "options": [
+                "Displays a character on the screen",
+                "Reads a line of text from the user",
+                "Reads a single character from user input",
+                "Stores data in variables"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "Which function displays data with formatted output?",
+              "options": [
+                "getchar",
+                "puts",
+                "printf",
+                "putchar"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "What is the purpose of the 'puts' function?",
+              "options": [
+                "Displays a single character",
+                "Displays a string followed by a newline",
+                "Reads data from the user",
+                "Stores variables in memory"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "What is the purpose of 'Formatted Input and Output'?",
+              "options": [
+                "To confuse programmers",
+                "To perform complex calculations",
+                "To control how data is presented and read",
+                "To define data types"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "Which placeholder is used in 'printf' to display integers?",
+              "options": [
+                "%s",
+                "%c",
+                "%d",
+                "%f"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "What does 'putchar' do?",
+              "options": [
+                "Displays a string",
+                "Displays a single character",
+                "Reads user input",
+                "Stores data in variables"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "What does 'gets' do?",
+              "options": [
+                "Reads a single character",
+                "Displays a string",
+                "Reads a line of text from the user",
+                "Stores data in variables"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "Why is 'Formatted Input and Output' important?",
+              "options": [
+                "To make programs slower",
+                "To perform complex calculations",
+                "To interact with the environment",
+                "To control the presentation and reading of data"
+              ],
+              "correctIndex": 3
+            }
+          ]
+        }        
+      },
+      {
+        "topicName": "Control Statements",
+        "concepts": [{
+          "description": "Control statements help us manage the flow of our programs. They allow us to make decisions and repeat actions."
+        },
+        {
+          "title": "Branching",
+          "description": "Branching includes if statements for making decisions based on conditions, if...else statements for extending decisions, nested if for complex decisions, and switch statements for multiple options."
+        },
+        {
+          "title": "Looping",
+          "description": "Looping involves while loops for repeating a block of code while a condition is true, do...while loops for running code at least once, and for loops for conveniently repeating code a specific number of times."
+        }],
+        "quizzes":{
+          "quizTitle": "Control Statements Quiz",
+          "questions": [
+            {
+              "question": "What is the purpose of control statements in programming?",
+              "options": [
+                "To make code more complex",
+                "To manage the flow of programs",
+                "To add decorative elements",
+                "To create variables"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "Which control statement is used for making decisions based on conditions?",
+              "options": [
+                "switch statement",
+                "nested if",
+                "if statement",
+                "for loop"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "What does the 'if...else' statement do?",
+              "options": [
+                "Creates nested loops",
+                "Repeats a block of code",
+                "Makes decisions and extends them",
+                "Defines variables"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "What is the purpose of 'nested if' statements?",
+              "options": [
+                "To create a sequence of numbers",
+                "To add extra complexity",
+                "To make decisions based on conditions inside another decision",
+                "To define multiple variables"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "Which looping statement repeats a block of code while a condition is true?",
+              "options": [
+                "do...while loop",
+                "while loop",
+                "for loop",
+                "if statement"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "What does a 'do...while' loop ensure?",
+              "options": [
+                "The loop never runs",
+                "The loop always runs",
+                "The loop runs at least once",
+                "The loop runs indefinitely"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "What does a 'for' loop include?",
+              "options": [
+                "A single condition",
+                "Initialization, condition, and increment/decrement parts",
+                "Only an increment",
+                "A nested loop"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "Which control statement is used for handling multiple options?",
+              "options": [
+                "if statement",
+                "switch statement",
+                "for loop",
+                "while loop"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "What does a 'switch' statement do?",
+              "options": [
+                "Creates nested loops",
+                "Makes complex calculations",
+                "Handles multiple options based on a variable",
+                "Controls the flow of programs"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "What is the main purpose of looping statements?",
+              "options": [
+                "To repeat code indefinitely",
+                "To make the program slower",
+                "To manage the flow of the program",
+                "To create variables"
+              ],
+              "correctIndex": 2
+            }
+          ]
+        }        
+      },
+      {
+        "topicName": "Nested Looping",
+        "concepts": [{
+          "description": "Nested looping involves putting one loop inside another loop. It helps in working with complex patterns or grids. The inner loop runs completely for each iteration of the outer loop."
+        },
+        {
+          "title": "break and continue Statements",
+          "description": "The 'break' statement is used to immediately exit a loop when a certain condition is met. The 'continue' statement is used to skip the rest of the loop's current iteration and move to the next iteration."
+        },
+        {
+          "title": "goto Statement",
+          "description": "The 'goto' statement allows jumping to a labeled part of the program. However, it's considered bad practice in modern programming because it can make the code hard to read and debug."
+        }],
+        "quizzes":{
+          "quizTitle": "Nested Looping Quiz",
+          "questions": [
+            {
+              "question": "What is nested looping used for?",
+              "options": [
+                "Breaking out of a loop",
+                "Printing complex patterns or grids",
+                "Skipping loop iterations",
+                "Executing a loop only once"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "What does the 'break' statement do?",
+              "options": [
+                "Prints a message",
+                "Immediately exits a loop",
+                "Continues to the next iteration",
+                "Creates a nested loop"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "What does the 'continue' statement do?",
+              "options": [
+                "Exits the program",
+                "Prints a message",
+                "Skips the rest of the current loop iteration",
+                "Pauses the loop for a while"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "Why is the 'goto' statement considered bad practice?",
+              "options": [
+                "It's too slow",
+                "It's hard to understand",
+                "It only works in some languages",
+                "It's used for nested loops"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "What happens when an 'inner loop' is used inside an 'outer loop'?",
+              "options": [
+                "The 'outer loop' is skipped",
+                "Both loops run independently",
+                "The 'inner loop' runs completely for each iteration of the 'outer loop'",
+                "The 'inner loop' runs first, then the 'outer loop'"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "When is the 'break' statement typically used?",
+              "options": [
+                "To continue the loop",
+                "To create nested loops",
+                "To immediately exit a loop based on a condition",
+                "To print values"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "What does the 'continue' statement skip?",
+              "options": [
+                "The entire loop",
+                "The condition",
+                "The loop initialization",
+                "The rest of the current loop iteration"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "question": "What can the 'goto' statement do?",
+              "options": [
+                "Jump to a labeled part of the program",
+                "Print a message",
+                "Exit the program",
+                "Create a nested loop"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "Why is using 'goto' discouraged?",
+              "options": [
+                "It's too fast",
+                "It's not supported by modern languages",
+                "It makes the code difficult to read and debug",
+                "It can only be used with loops"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "What makes nested looping helpful?",
+              "options": [
+                "It prevents loops from running",
+                "It reduces the execution speed",
+                "It allows loops to be used only once",
+                "It helps in managing complex patterns or grids"
+              ],
+              "correctIndex": 3
+            }
+          ]
+        }        
+      },
+      {
+        "topicName": "Function",
+        "concepts": [{
+          "description": "A function is like a reusable block of code that performs a specific task. It helps organize code and make it easier to manage."
+        },
+        {
+          "title": "Defining a Function",
+          "description": "Creating a function involves giving it a name, specifying its task, and providing the necessary code inside curly braces."
+        },
+        {
+          "title": "Accessing a Function",
+          "description": "To use a function, you call it by its name. The program then jumps to that function's code and executes it."
+        },
+        {
+          "title": "Function Prototypes",
+          "description": "A function prototype tells the program about the function before it's actually used. It includes the function's name, return type, and parameter types."
+        },
+        {
+          "title": "Passing Arguments to a Function",
+          "description": "Functions can take inputs called arguments. These arguments help the function perform its task with specific data."
+        },
+        {
+          "title": "Recursion",
+          "description": "Recursion is when a function calls itself. It's a powerful concept for solving problems that can be broken down into simpler instances of the same problem."
+        },
+        {
+          "title": "Storage Class",
+          "description": "Storage classes define how variables are stored in memory. For instance, 'auto' is a default storage class, and 'static' keeps a variable's value across function calls."
+        }],
+        "quizzes":{
+          "quizTitle": "Function Quiz",
+          "questions": [
+            {
+              "question": "What is a function?",
+              "options": [
+                "A piece of data",
+                "A reusable block of code performing a specific task",
+                "A loop",
+                "A storage class"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "How do you define a function?",
+              "options": [
+                "By giving it a nickname",
+                "By specifying its task inside curly braces",
+                "By using loops",
+                "By declaring variables"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "How do you access a function?",
+              "options": [
+                "By renaming it",
+                "By copying its code",
+                "By calling it by its name",
+                "By moving it to a different location"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "What does a function prototype include?",
+              "options": [
+                "The function's name and code",
+                "The function's return type and parameter types",
+                "The function's access modifier",
+                "The function's documentation"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "What are arguments in a function?",
+              "options": [
+                "Names of variables",
+                "Reusable blocks of code",
+                "Inputs to a function that help it perform a task",
+                "Special keywords"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "What is recursion in functions?",
+              "options": [
+                "A function calling multiple functions",
+                "A loop within a function",
+                "A function calling itself",
+                "A function with too many arguments"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "What is a storage class in functions?",
+              "options": [
+                "A type of loop",
+                "A function's name",
+                "How variables are stored in memory",
+                "A function's documentation"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "What does the 'static' storage class do?",
+              "options": [
+                "Prevents a function from being accessed",
+                "Keeps a variable's value across function calls",
+                "Deletes a variable's value",
+                "Creates a function prototype"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "What is the main advantage of using functions?",
+              "options": [
+                "Making the code more complex",
+                "Reducing the number of loops",
+                "Reusability and better organization of code",
+                "Increasing the size of the program"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "What happens if a function calls itself in a loop?",
+              "options": [
+                "The program crashes",
+                "It creates an infinite loop",
+                "It prints an error message",
+                "The function doesn't execute"
+              ],
+              "correctIndex": 1
+            }
+          ]
+        }        
+      },
+      {
+        "topicName": "Array",
+        "concepts": [{
+          "description": "An array is like a collection of similar items stored under one name. It helps manage a group of related data efficiently."
+        },
+        {
+          "title": "Defining an Array",
+          "description": "Creating an array involves specifying its name, type of elements it holds, and the number of elements it can store."
+        },
+        {
+          "title": "Processing an Array",
+          "description": "You can access individual elements in an array using their index numbers and perform operations on them."
+        },
+        {
+          "title": "Passing Arrays to Functions",
+          "description": "Functions can take arrays as inputs. This helps in processing a large amount of data more conveniently."
+        },
+        {
+          "title": "Multidimensional Array",
+          "description": "A multidimensional array is like an array of arrays. It's useful for handling data in grids or tables."
+        }],
+        "quizzes":{
+          "quizTitle": "Array Quiz",
+          "questions": [
+            {
+              "question": "What is an array?",
+              "options": [
+                "A collection of unrelated items",
+                "A group of similar items stored under one name",
+                "A loop structure",
+                "A function"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "How do you define an array?",
+              "options": [
+                "By giving it a nickname",
+                "By specifying its size only",
+                "By specifying its name and type of elements it holds",
+                "By using loops"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "How do you access individual elements in an array?",
+              "options": [
+                "Using their names",
+                "Using the array's type",
+                "Using index numbers",
+                "Using function calls"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "Why is passing arrays to functions useful?",
+              "options": [
+                "It reduces the size of the array",
+                "It avoids using loops",
+                "It helps in processing a large amount of data more conveniently",
+                "It makes the program slower"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "What is a multidimensional array?",
+              "options": [
+                "An array with multiple types of elements",
+                "An array with different sizes",
+                "An array of functions",
+                "An array of arrays"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "question": "What's the primary benefit of using an array?",
+              "options": [
+                "Storing unrelated data together",
+                "Managing a group of related data efficiently",
+                "Reducing program execution time",
+                "Creating complex control structures"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "How do you access elements in a multidimensional array?",
+              "options": [
+                "Using only one index",
+                "Using the array's name",
+                "Using their values",
+                "Using multiple indices"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "question": "What can be the data type of elements in an array?",
+              "options": [
+                "Only integers",
+                "Only strings",
+                "Any valid data type, depending on the programming language",
+                "Only characters"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "What is the purpose of specifying the size of an array?",
+              "options": [
+                "To limit the number of elements",
+                "To prevent any element access",
+                "To make the array empty",
+                "To increase the program's speed"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "In what scenarios are multidimensional arrays useful?",
+              "options": [
+                "When working with a single value",
+                "When dealing with a group of unrelated data",
+                "When handling data in grids or tables",
+                "When using only one loop"
+              ],
+              "correctIndex": 2
+            }
+          ]
+        }        
+      },
+      {
+        "topicName": "String",
+        "concepts": [{
+          "description": "A string is a sequence of characters, like letters and symbols, that represent text in programming."
+        },
+        {
+          "title": "String Basics",
+          "description": "Strings are used to store and manipulate textual data, such as names, sentences, and more."
+        },
+        {
+          "title": "String Library Functions",
+          "description": "Programming languages provide built-in functions to perform operations on strings, like finding their length or converting case."
+        },
+        {
+          "title": "String Copy",
+          "description": "Copying a string means making a duplicate of it. This is useful when you want to work with a copy without changing the original."
+        },
+        {
+          "title": "String Concatenation",
+          "description": "Concatenation means joining two or more strings together to create a single string."
+        },
+        {
+          "title": "String Comparison",
+          "description": "You can compare strings to check if they are equal or which comes before/after alphabetically."
+        },
+        {
+          "title": "Array of Strings",
+          "description": "An array of strings is a collection of strings stored under one variable. It's used for managing multiple strings efficiently."
+        }],
+        "quizzes":{
+          "quizTitle": "String Quiz",
+          "questions": [
+            {
+              "question": "What is a string?",
+              "options": [
+                "A sequence of numbers",
+                "A sequence of characters representing text",
+                "A mathematical operation",
+                "A type of loop"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "How are strings used in programming?",
+              "options": [
+                "To store numbers only",
+                "To manipulate textual data",
+                "To create graphics",
+                "To perform calculations"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "What are string library functions?",
+              "options": [
+                "Functions that perform mathematical operations",
+                "Functions that work with strings",
+                "Functions that print text",
+                "Functions that generate random numbers"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "Why would you copy a string?",
+              "options": [
+                "To delete the string",
+                "To change the original string",
+                "To make a duplicate for further use",
+                "To concatenate strings"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "What does string concatenation mean?",
+              "options": [
+                "Dividing a string into parts",
+                "Finding the length of a string",
+                "Joining two or more strings together",
+                "Copying a string"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "How can you compare strings?",
+              "options": [
+                "By counting the characters",
+                "By converting them to numbers",
+                "By checking their lengths",
+                "By using built-in functions"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "question": "What's the purpose of an array of strings?",
+              "options": [
+                "To store unrelated data",
+                "To work with only one string",
+                "To perform mathematical operations",
+                "To manage multiple strings efficiently"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "question": "What do string library functions help with?",
+              "options": [
+                "Storing numbers",
+                "Changing the programming language",
+                "Performing operations on strings",
+                "Creating loops"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "What happens when two strings are compared?",
+              "options": [
+                "They are combined into one string",
+                "Their lengths are swapped",
+                "Their memory is merged",
+                "They are checked character by character"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "question": "When is copying a string useful?",
+              "options": [
+                "When you want to delete the string",
+                "When you want to change the original string",
+                "When you want to use a duplicate without altering the original",
+                "When you want to make the string longer"
+              ],
+              "correctIndex": 2
+            }
+          ]
+        }        
+      },
+      {
+        "topicName": "Pointers",
+        "concepts": [{
+          "description": "A pointer is like a special variable that stores the memory address of another variable."
+        },
+        {
+          "title": "Pointer Declarations",
+          "description": "To declare a pointer, you use an asterisk (*) before the variable name. For example, int *ptr; declares a pointer to an integer."
+        },
+        {
+          "title": "Operations on Pointers",
+          "description": "You can perform operations on pointers, like assigning them addresses of variables or using them to access the values at those addresses."
+        },
+        {
+          "title": "Pointers and Arrays",
+          "description": "Pointers and arrays are closely related. An array name can be treated as a pointer to its first element."
+        },
+        {
+          "title": "Pointers and Functions",
+          "description": "Pointers are used to pass data between functions efficiently. They allow you to modify data outside the function."
+        },
+        {
+          "title": "Dynamic Memory Allocation",
+          "description": "This is a way to allocate memory during program execution. It helps manage memory for data that might change in size."
+        }],
+        "quizzes":{
+          "quizTitle": "Pointer Quiz",
+          "questions": [
+            {
+              "question": "What does a pointer store?",
+              "options": [
+                "The actual value of a variable",
+                "The memory address of another variable",
+                "A mathematical operation",
+                "A string"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "How do you declare a pointer?",
+              "options": [
+                "By using a dollar sign before the variable name",
+                "By using an asterisk (*) before the variable name",
+                "By using a plus sign (+) before the variable name",
+                "By using a hyphen (-) before the variable name"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "What can you do with pointers?",
+              "options": [
+                "Only assign them to numbers",
+                "Perform operations on their values",
+                "Only access the values at their addresses",
+                "Store multiple variables"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "How are pointers and arrays related?",
+              "options": [
+                "They are unrelated concepts",
+                "Arrays are a type of pointer",
+                "An array name can act as a pointer to its first element",
+                "Arrays store pointers"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "How do pointers help with functions?",
+              "options": [
+                "They make functions faster",
+                "They store function names",
+                "They allow data to be shared between functions",
+                "They eliminate the need for functions"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "What is dynamic memory allocation used for?",
+              "options": [
+                "Allocating memory during program compilation",
+                "Allocating memory for static variables",
+                "Allocating memory for constants",
+                "Allocating memory during program execution for data that might change in size"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "question": "What's the purpose of assigning an address to a pointer?",
+              "options": [
+                "To modify the variable's value",
+                "To make the pointer invalid",
+                "To access the value at the address",
+                "To delete the variable"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "Which symbol is used for pointer declaration?",
+              "options": [
+                "!",
+                "*",
+                "&",
+                "#"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "What is the primary advantage of pointers in functions?",
+              "options": [
+                "They make the program run slower",
+                "They allow data to be shared between functions",
+                "They prevent data from being modified",
+                "They restrict the use of functions"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "When is dynamic memory allocation useful?",
+              "options": [
+                "When working with fixed-size arrays",
+                "When the program's memory is fixed",
+                "When managing memory is not important",
+                "When dealing with data that might change in size during program execution"
+              ],
+              "correctIndex": 3
+            }
+          ]
+        }        
+      },
+      {
+        "topicName": "Structure",
+        "concepts": [{
+          "description": "A structure is like a custom data type that groups different variables of different types under a single name."
+        },
+        {
+          "title": "Defining a Structure",
+          "description": "You define a structure by listing its components, also called members. Each member can be of a different data type."
+        },
+        {
+          "title": "Processing a Structure",
+          "description": "You can access and manipulate the members of a structure to work with the data it holds."
+        },
+        {
+          "title": "Structure and Pointers",
+          "description": "You can use pointers to point to a structure and access its members using the arrow operator (->)."
+        },
+        {
+          "title": "Passing Structures to Functions",
+          "description": "You can pass structures as function arguments to work with their data inside functions."
+        },
+        {
+          "title": "Self-Referential Structure",
+          "description": "A structure can contain a pointer to the same type of structure, creating linked or tree-like structures."
+        },
+        {
+          "title": "Union",
+          "description": "A union is similar to a structure, but all its members share the same memory location. Only one member can hold a value at a time."
+        }],
+        "quizzes":{
+          "quizTitle": "Structure Quiz",
+          "questions": [
+            {
+              "question": "What is a structure in programming?",
+              "options": [
+                "A mathematical operation",
+                "A collection of variables of the same data type",
+                "A custom data type that groups different variables under a single name",
+                "A type of loop"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "How do you define a structure?",
+              "options": [
+                "By listing its members",
+                "By using the keyword 'var'",
+                "By assigning a value to it",
+                "By using the asterisk (*) symbol"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "What can you do with the members of a structure?",
+              "options": [
+                "Access and manipulate their data",
+                "Only access their data",
+                "Delete them",
+                "Rename them"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "How do you access the members of a structure using a pointer?",
+              "options": [
+                "By using the keyword 'pointer'",
+                "By using the arrow operator (->)",
+                "By using the dot operator (.)",
+                "By using the asterisk (*) symbol"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "Why would you pass a structure to a function?",
+              "options": [
+                "To create a new structure",
+                "To delete the structure",
+                "To modify the structure's members",
+                "To work with the structure's data inside the function"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "question": "What's a self-referential structure?",
+              "options": [
+                "A structure that references another program",
+                "A structure that references itself through a pointer",
+                "A structure that references built-in functions",
+                "A structure with no members"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "What's a union?",
+              "options": [
+                "A structure with multiple members",
+                "A collection of unrelated variables",
+                "A custom data type for strings",
+                "A type of data that holds only one member's value at a time"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "question": "How does a union differ from a structure?",
+              "options": [
+                "A union cannot hold multiple members",
+                "A structure cannot hold multiple members",
+                "A union's members share the same memory location",
+                "A structure's members share the same memory location"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "What's the primary advantage of using pointers with structures?",
+              "options": [
+                "They make the program slower",
+                "They allow structures to be nested",
+                "They enable dynamic memory allocation",
+                "They provide efficient access to structure members and manipulation"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "question": "What's the benefit of a self-referential structure?",
+              "options": [
+                "It can reference other data types",
+                "It helps reduce memory usage",
+                "It allows structures to be stored in arrays",
+                "It creates linked or tree-like structures"
+              ],
+              "correctIndex": 3
+            }
+          ]
+        }        
+      },
+      {
+        "topicName": "File",
+        "concepts": [{
+          "description": "A file is a way to store data on a computer. In C, you can open and close files, read from them, and write to them."
+        },
+        {
+          "title": "Opening and Closing a File",
+          "description": "To work with a file, you need to open it first using functions like fopen(). After you're done, close it using fclose()."
+        },
+        {
+          "title": "Creating a File",
+          "description": "You can create a new file using fopen() with the \"w\" mode. This opens the file for writing and creates it if it doesn't exist."
+        },
+        {
+          "title": "Processing a File",
+          "description": "You can read and write data to and from a file using functions like fscanf() for reading and fprintf() for writing."
+        },
+        {
+          "title": "Low Level Programming - Bitwise Operations",
+          "description": "Bitwise operations work at the level of individual bits in a value. You can manipulate them using operators like AND (&), OR (|), XOR (^), and shifting (<<, >>)."
+        },
+        {
+          "title": "Bit Fields",
+          "description": "Bit fields let you define how many bits a variable uses. They're useful for optimizing memory usage."
+        },
+        {
+          "title": "Additional Features of C",
+          "description": "Enumerations, Command Line Parameters, Header Files, Preprocessors, Macros, etc. expand your knowledge of C programming by covering advanced features."
+        }],
+        "quizzes":{
+          "quizTitle": "File Quiz",
+          "questions": [
+            {
+              "question": "What is the purpose of file handling in C?",
+              "options": [
+                "To create new programming languages",
+                "To read and write data from and to files",
+                "To optimize memory usage in programs",
+                "To encrypt data"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "Which function is used to open a file for reading?",
+              "options": [
+                "fopen() with mode 'r'",
+                "fopen() with mode 'w'",
+                "fopen() with mode 'a'",
+                "fopen() with mode 'x'"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "What does the fopen() function return if the file does not exist?",
+              "options": [
+                "NULL",
+                "0",
+                "-1",
+                "1"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "How do you close an opened file?",
+              "options": [
+                "fclose()",
+                "close()",
+                "finish()",
+                "endfile()"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "Which bitwise operator is used for setting a specific bit to 1?",
+              "options": [
+                "&",
+                "|",
+                "^",
+                "<<"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "question": "What are bit fields used for?",
+              "options": [
+                "Converting data types",
+                "Optimizing memory usage",
+                "Performing arithmetic operations",
+                "Creating arrays"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "What do enumerations allow you to do in C?",
+              "options": [
+                "Use complex arithmetic operations",
+                "Define custom data types with named values",
+                "Create multidimensional arrays",
+                "Access external libraries"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "What is the purpose of command line parameters?",
+              "options": [
+                "To create graphical user interfaces",
+                "To pass arguments to functions",
+                "To manipulate files",
+                "To define data structures"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "Which preprocessor directive is used to include a header file?",
+              "options": [
+                "#use",
+                "#include",
+                "#import",
+                "#define"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "What do macros help you achieve in C?",
+              "options": [
+                "Reducing program size",
+                "Creating functions",
+                "Performing mathematical calculations",
+                "Replacing repetitive code with shortcuts"
+              ],
+              "correctIndex": 3
+            }
+          ]
+        }        
+      }
+    ]
+  }
+  

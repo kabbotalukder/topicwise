@@ -1,0 +1,119 @@
+.quiz-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #F4F4F4;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.quiz-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.question {
+    margin-bottom: 40px;
+    background-color: #FFF;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.question h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.options-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.option {
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #E4E4E4;
+}
+
+.option:hover {
+    background-color: #D4D4D4;
+}
+
+.option.selected {
+    background-color: #D4D4D4;
+    border: 2px solid #4CAF50;
+    color: #4CAF50;
+}
+
+.option.correct {
+    background-color: #D4FCD9; /* Green background for correct answer */
+    border: 2px solid #4CAF50;
+    color: #4CAF50;
+}
+
+.option.wrong {
+    background-color: #FFD7D7; /* Red background for wrong answer */
+    border: 2px solid #FF6347;
+    color: #FF6347;
+}
+
+.option.locked {
+    cursor: not-allowed;
+    opacity: 0.6;
+    pointer-events: none;
+}
+.result {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.answers-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.correct-answer {
+    color: #4CAF50; /* Change text color of correct answer */
+    margin-left: 10px;
+}
+
+.incorrect-answer {
+    color: #FF6347; /* Change text color of incorrect answer */
+    margin-left: 10px;
+}
+
+.submit-button {
+    background-color: #00597E;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 30px;
+    display: block;
+    margin: 20px auto;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #004B6B;
+}

@@ -1,0 +1,37 @@
+/* TopicContent.css */
+
+.content {
+    width: 75%; /* Set a fixed width for the content */
+    padding: 20px;
+    height: 100vh;
+    overflow-y: auto;
+    float: right; /* Float the content to the right */
+}
+
+.content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.content p {
+    font-size: 16px;
+    color: black;
+    line-height: 1.5;
+}
+
+.quiz-button {
+    width: fit-content;
+    background-color: #00597E;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    align-self: center; /* Horizontally center the button */
+    margin-bottom: 20px; /* Add space at the bottom */
+}
+
+.select-topic{
+    text-align: center;
+}
