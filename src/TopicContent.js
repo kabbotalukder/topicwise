@@ -1,6 +1,6 @@
 import React from 'react';
 import './TopicContent.css';
-import { Link } from 'react-router-dom'; // Import Link from react-router-dom
+import { Link } from 'react-router-dom';
 
 function TopicContent({ topic }) {
     return (
@@ -15,7 +15,7 @@ function TopicContent({ topic }) {
                     </div>
                 ))}
             </div>
-            <Link to={`/quiz/${topic.topicName}`} className="quiz-button">Quiz</Link> {/* Link to the corresponding quiz page */}
+            <Link to={`/quiz/${topic.topicName}`} className="quiz-button">Quiz</Link>
         </div>
     );
 }

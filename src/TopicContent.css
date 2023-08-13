@@ -1,11 +1,9 @@
-/* TopicContent.css */
-
 .content {
-    width: 75%; /* Set a fixed width for the content */
+    width: 75%;
     padding: 20px;
     height: 100vh;
     overflow-y: auto;
-    float: right; /* Float the content to the right */
+    float: right;
 }
 
 .content h2 {
@@ -28,8 +26,8 @@
     text-decoration: none;
     font-weight: bold;
     text-align: center;
-    align-self: center; /* Horizontally center the button */
-    margin-bottom: 20px; /* Add space at the bottom */
+    align-self: center;
+    margin-bottom: 20px;
 }
 
 .select-topic{

@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import TopicSidebar from './TopicSidebar';
 import TopicContent from './TopicContent';
-import Quiz from './Quiz'; // Import the Quiz component
+import Quiz from './Quiz';
 import topicsData from './topicsData.json';
 import Navbar from './NavBar';
 import './App.css';
